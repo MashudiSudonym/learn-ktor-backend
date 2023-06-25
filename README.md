@@ -1,0 +1,1 @@
+Learning ktor backend tutorial from https://medium.com/@michakonkel/ktor-backend-in-a-nutshell-part-1-b5e29a9fab4e
