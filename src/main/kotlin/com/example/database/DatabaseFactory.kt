@@ -1,5 +1,7 @@
 package com.example.database
 
+import io.ktor.server.config.*
+
 interface DatabaseFactory {
-    fun create()
+    fun create(applicationConfig: ApplicationConfig)
 }
