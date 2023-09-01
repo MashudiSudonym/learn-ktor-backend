@@ -1,7 +1,7 @@
 package com.example.games.presenter
 
-import com.example.games.data.GameRequest
-import com.example.games.domain.GamesRepository
+import com.example.games.model.GameRequest
+import com.example.games.repository.GamesRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*

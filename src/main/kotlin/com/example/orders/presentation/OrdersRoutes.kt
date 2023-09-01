@@ -1,7 +1,7 @@
 package com.example.orders.presentation
 
-import com.example.orders.data.OrderRequest
-import com.example.orders.domain.OrdersRepository
+import com.example.orders.model.OrderRequest
+import com.example.orders.repository.OrdersRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*

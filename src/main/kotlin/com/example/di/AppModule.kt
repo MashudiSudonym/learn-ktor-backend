@@ -2,14 +2,14 @@ package com.example.di
 
 import com.example.database.DatabaseFactory
 import com.example.database.DatabaseFactoryImpl
-import com.example.games.domain.GamesRepository
-import com.example.games.domain.GamesRepositoryImpl
-import com.example.orders.domain.OrdersRepository
-import com.example.orders.domain.OrdersRepositoryImpl
-import com.example.users.data.dao.UsersDAOFacade
-import com.example.users.data.dao.UsersDAOFacadeImpl
-import com.example.users.domain.UsersRepository
-import com.example.users.domain.UsersRepositoryImpl
+import com.example.games.repository.GamesRepository
+import com.example.games.repository.GamesRepositoryImpl
+import com.example.orders.repository.OrdersRepository
+import com.example.orders.repository.OrdersRepositoryImpl
+import com.example.users.dao.UsersDAOFacade
+import com.example.users.dao.UsersDAOFacadeImpl
+import com.example.users.repository.UsersRepository
+import com.example.users.repository.UsersRepositoryImpl
 import org.koin.dsl.module
 
 val appModule = module {

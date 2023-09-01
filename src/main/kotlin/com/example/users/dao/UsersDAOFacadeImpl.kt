@@ -1,9 +1,9 @@
-package com.example.users.data.dao
+package com.example.users.dao
 
 import com.example.database.dbQuery
 import com.example.database.table.Users
-import com.example.users.data.User
-import com.example.users.data.UserRequest
+import com.example.users.model.User
+import com.example.users.model.UserRequest
 import kotlinx.datetime.Clock
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime

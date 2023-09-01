@@ -1,10 +1,11 @@
-package com.example.games.data
+package com.example.games.model
 
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class GameRequest(
+data class Game(
+    val id: String,
     val name: String,
-    val price: String,
+    val price: Float,
     val genre: String,
 )

@@ -1,7 +1,7 @@
-package com.example.users.domain
+package com.example.users.repository
 
-import com.example.users.data.User
-import com.example.users.data.UserRequest
+import com.example.users.model.User
+import com.example.users.model.UserRequest
 
 interface UsersRepository {
     suspend fun addUser(userRequest: UserRequest): User?

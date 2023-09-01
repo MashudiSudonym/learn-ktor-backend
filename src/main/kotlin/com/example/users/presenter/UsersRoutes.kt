@@ -1,7 +1,7 @@
 package com.example.users.presenter
 
-import com.example.users.data.UserRequest
-import com.example.users.domain.UsersRepository
+import com.example.users.model.UserRequest
+import com.example.users.repository.UsersRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.auth.authenticate

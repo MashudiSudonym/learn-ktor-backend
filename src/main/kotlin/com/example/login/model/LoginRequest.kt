@@ -1,10 +1,9 @@
-package com.example.users.data
+package com.example.login.model
 
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class UserRequest(
-    val name: String,
+data class LoginRequest(
     val username: String,
     val password: String,
 )

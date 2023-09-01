@@ -1,9 +1,9 @@
-package com.example.orders.domain
+package com.example.orders.repository
 
-import com.example.games.data.Game
-import com.example.games.domain.GamesRepository
-import com.example.orders.data.Order
-import com.example.orders.data.OrderRequest
+import com.example.games.model.Game
+import com.example.games.repository.GamesRepository
+import com.example.orders.model.Order
+import com.example.orders.model.OrderRequest
 import kotlinx.datetime.Clock
 import java.util.*
 

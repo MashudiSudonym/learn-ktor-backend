@@ -1,7 +1,7 @@
-package com.example.orders.domain
+package com.example.orders.repository
 
-import com.example.orders.data.Order
-import com.example.orders.data.OrderRequest
+import com.example.orders.model.Order
+import com.example.orders.model.OrderRequest
 
 interface OrdersRepository {
     fun getOrders(): List<Order>

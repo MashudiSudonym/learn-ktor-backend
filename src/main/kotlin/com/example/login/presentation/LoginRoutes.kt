@@ -2,12 +2,12 @@ package com.example.login.presentation
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
-import com.example.login.data.LoginRequest
-import com.example.login.data.LoginResponse
+import com.example.login.model.LoginRequest
+import com.example.login.model.LoginResponse
 import com.example.plugins.AUDIENCE
 import com.example.plugins.ISSUER
 import com.example.plugins.SECRET
-import com.example.users.domain.UsersRepository
+import com.example.users.repository.UsersRepository
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*

@@ -1,7 +1,7 @@
-package com.example.users.data.dao
+package com.example.users.dao
 
-import com.example.users.data.User
-import com.example.users.data.UserRequest
+import com.example.users.model.User
+import com.example.users.model.UserRequest
 
 interface UsersDAOFacade {
     suspend fun createUser(userRequest: UserRequest): User?

@@ -1,4 +1,4 @@
-package com.example.login.data
+package com.example.login.model
 
 import kotlinx.serialization.Serializable
 

@@ -1,6 +1,6 @@
-package com.example.orders.data
+package com.example.orders.model
 
-import com.example.games.data.Game
+import com.example.games.model.Game
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -1,7 +1,7 @@
-package com.example.games.domain
+package com.example.games.repository
 
-import com.example.games.data.Game
-import com.example.games.data.GameRequest
+import com.example.games.model.Game
+import com.example.games.model.GameRequest
 
 interface GamesRepository {
     fun getGames(): List<Game>
