@@ -9,9 +9,9 @@ fun main(args: Array<String>): Unit = EngineMain.main(args)
 fun Application.module() {
     configureDI()
     configureDatabase(environment.config)
-    configureAuthentication()
+    configureAuthentication(environment.config)
     configureStatusPages()
     configureResource()
     configureSerialization()
-    configureRouting()
+    configureRouting(environment.config)
 }

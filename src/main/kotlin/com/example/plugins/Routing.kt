@@ -5,10 +5,11 @@ import com.example.login.presentation.loginRouting
 import com.example.orders.presentation.ordersRouting
 import com.example.users.presenter.usersRouting
 import io.ktor.server.application.*
+import io.ktor.server.config.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
-fun Application.configureRouting() {
+fun Application.configureRouting(applicationConfig: ApplicationConfig) {
     routing {
         get("/") {
             call.respondText("Hello World!")
@@ -16,6 +17,6 @@ fun Application.configureRouting() {
         gamesRouting()
         ordersRouting()
         usersRouting()
-        loginRouting()
+        loginRouting(applicationConfig)
     }
 }

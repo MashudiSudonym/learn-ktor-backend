@@ -28,5 +28,5 @@ Authorization: Bearer {{auth_token}}
 {
   "name": "Frodo",
   "username": "mkonkel",
-  "password": "test"
+  "password": "test123"
 }
