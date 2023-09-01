@@ -8,7 +8,7 @@ fun main(args: Array<String>): Unit = EngineMain.main(args)
 
 fun Application.module() {
     configureDI()
-    configureDatabase()
+    configureDatabase(environment.config)
     configureAuthentication()
     configureStatusPages()
     configureResource()
